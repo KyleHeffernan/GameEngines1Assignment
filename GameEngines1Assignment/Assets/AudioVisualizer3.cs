@@ -6,12 +6,15 @@ public class AudioVisualizer3 : MonoBehaviour
 {
     public int band = 1;
     public float scale = 10;
+    private Vector3 startPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        startPos = this.transform.position;
     }
+
+
 
     // Update is called once per frame
 
@@ -21,7 +24,7 @@ public class AudioVisualizer3 : MonoBehaviour
         ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[band] * scale), Time.deltaTime * 3.0f);
         transform.localScale = ls;
         Vector3 pos = transform.position;
-        pos.y = 1 + (ls.y / 2);
+        pos.y = 2 + (ls.y / 2);
         transform.position = pos;
 
 	}
