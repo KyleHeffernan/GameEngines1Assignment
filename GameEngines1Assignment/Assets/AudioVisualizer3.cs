@@ -20,6 +20,9 @@ public class AudioVisualizer3 : MonoBehaviour
         Vector3 ls = transform.localScale;
         ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[band] * scale), Time.deltaTime * 3.0f);
         transform.localScale = ls;
+        Vector3 pos = transform.position;
+        pos.y = 1 + (ls.y / 2);
+        transform.position = pos;
 
 	}
 }
