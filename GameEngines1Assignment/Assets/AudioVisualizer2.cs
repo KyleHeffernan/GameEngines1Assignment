@@ -25,6 +25,7 @@ public class AudioVisualizer2 : MonoBehaviour {
                 
             );
             GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            cube.GetComponent<Collider>().enabled = false;
             cube.transform.position = transform.TransformPoint(pos);
             cube.transform.parent = this.transform;
             cube.GetComponent<Renderer>().material.color = 
