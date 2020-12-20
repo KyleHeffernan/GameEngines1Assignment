@@ -7,6 +7,7 @@ public class TerrainSpawner : MonoBehaviour
 
     public GameObject terrainPrefab;
     public float speed = 1;
+    private float audioSpeed;
     public GameObject player;
     public float moveDistance = 10;
     public float spawnDistance = 100;
@@ -22,6 +23,7 @@ public class TerrainSpawner : MonoBehaviour
     void Update()
     {
 
+        //audioSpeed = speed * AudioAnalyzer.smoothedAmplitude * 100;
         transform.position+= transform.forward * speed * Time.deltaTime;
         if(Vector3.Distance(player.transform.position, transform.position) < spawnDistance)
         {
@@ -36,7 +38,7 @@ public class TerrainSpawner : MonoBehaviour
         GameObject terrain = GameObject.Instantiate<GameObject>(terrainPrefab, transform.position, transform.rotation);
         MoveTerrain moveScript = terrain.AddComponent<MoveTerrain>();
         moveScript.speed = speed;
-        transform.position = transform.position + (-transform.forward * moveDistance);
+        transform.position = transform.position + (-transform.forward * (moveDistance * terrain.transform.localScale.x));
     }
 
 

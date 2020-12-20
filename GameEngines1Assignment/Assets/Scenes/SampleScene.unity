@@ -290,10 +290,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   terrainPrefab: {fileID: 4405378010575731366, guid: a968f810f16f27c42b1f0e7ae5ae7aa5, type: 3}
-  speed: 1
+  speed: 30
   player: {fileID: 1635182058}
   moveDistance: 10
-  spawnDistance: 100
+  spawnDistance: 600
 --- !u!4 &828392723
 Transform:
   m_ObjectHideFlags: 0
