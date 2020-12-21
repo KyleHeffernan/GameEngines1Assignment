@@ -26,7 +26,7 @@ public class AudioVisualizer3 : MonoBehaviour
         transform.localScale = ls;
         Vector3 pos = transform.position;
         //Debug.Log(ls.y + "InCorrect one");
-        pos.y = 0 + (ls.y / 2);
+        //pos.y = 0 + (ls.y / 2);
         transform.position = pos;
 
 	}
