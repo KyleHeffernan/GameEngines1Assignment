@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -51,7 +51,7 @@ public class AudioVisualizer : MonoBehaviour {
             ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[i] * scale), Time.deltaTime * 3.0f);
             elements[i].transform.localScale = ls;
             Vector3 pos = elements[i].transform.position;
-            Debug.Log(ls.y + "Correct one");
+            //Debug.Log(ls.y + "Correct one");
             pos.y = startPositions[i].y + (ls.y / 2);
             elements[i].transform.position = pos;
         }
