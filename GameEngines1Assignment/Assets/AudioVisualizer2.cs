@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class AudioVisualizer2 : MonoBehaviour {
     public float scale = 10;
+
+    public float rotSpeed = 200;
     List<GameObject> elements = new List<GameObject>();
 	// Use this for initialization
 	void Start () {
@@ -37,10 +39,11 @@ public class AudioVisualizer2 : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        transform.Rotate(0, AudioAnalyzer.smoothedAmplitude * Time.deltaTime * rotSpeed, 0);
         for(int i = 0 ; i < elements.Count ; i ++)
         {
             Vector3 lscale = elements[i].transform.localScale; 
-            lscale.y = Mathf.Lerp(lscale.y, 1 + (Mathf.Abs(AudioAnalyzer.spectrum[i]) * scale), Time.deltaTime * 10);
+            lscale.y = Mathf.Lerp(lscale.y, 1 + (Mathf.Abs(AudioAnalyzer.wave[i]) * scale), Time.deltaTime * 10);
             elements[i].transform.localScale = lscale;
         }
 	}
