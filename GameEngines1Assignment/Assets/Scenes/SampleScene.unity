@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 1536529187}
   - component: {fileID: 1536529186}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CarLights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
