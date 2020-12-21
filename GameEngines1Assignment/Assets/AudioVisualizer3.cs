@@ -12,6 +12,7 @@ public class AudioVisualizer3 : MonoBehaviour
     void Start()
     {
         startPos = this.transform.position;
+        this.transform.parent = this.transform;
     }
 
 
@@ -24,7 +25,8 @@ public class AudioVisualizer3 : MonoBehaviour
         ls.y = Mathf.Lerp(ls.y, 1 + (AudioAnalyzer.bands[band] * scale), Time.deltaTime * 3.0f);
         transform.localScale = ls;
         Vector3 pos = transform.position;
-        pos.y = 2 + (ls.y / 2);
+        Debug.Log(ls.y + "InCorrect one");
+        pos.y = 0 + (ls.y / 2);
         transform.position = pos;
 
 	}
