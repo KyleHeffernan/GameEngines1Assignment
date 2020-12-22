@@ -31,8 +31,6 @@ public class AudioVisualizer2 : MonoBehaviour {
             cube.GetComponent<Collider>().enabled = false;
             cube.transform.position = transform.TransformPoint(pos);
             cube.transform.parent = this.transform;
-            cube.GetComponent<Renderer>().material.color = 
-                Color.HSVToRGB(i / (float) AudioAnalyzer.frameSize, 1, 1);
             elements.Add(cube);
         }
     }
