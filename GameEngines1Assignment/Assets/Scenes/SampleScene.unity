@@ -1001,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4434907143542138, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.15
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 4434907143542138, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1041,11 +1041,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
       propertyPath: lengthInSec
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198020576693072572, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 199197217824051864, guid: 3d19250bdd4e0df4c8da855e85a8d70b, type: 3}
       propertyPath: m_Materials.Array.size
