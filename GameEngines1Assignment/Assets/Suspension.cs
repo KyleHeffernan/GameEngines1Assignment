@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Suspension : MonoBehaviour
 {
-
+    // speed at which car bounces
     public float speed = 1f;
-    //adjust this to change how high it goes   
+    // adjust to change how high it goes   
     public float height = 0.1f;
     // Start is called before the first frame update
     void Start()

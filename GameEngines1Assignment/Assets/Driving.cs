@@ -6,7 +6,7 @@ public class Driving : MonoBehaviour
 {
 
     public float speed = 1f;
-    //adjust this to change how high it goes   
+    //adjust this to change how far it goes   
     public float strafe = 0.5f;
     // Start is called before the first frame update
     void Start()
@@ -15,12 +15,13 @@ public class Driving : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
             Vector3 pos = this.transform.position;
-            //calculate what the new Y position will be
+            //calculate what the new X position will be
             float newX = Mathf.Sin(Time.time * speed);
-            //set the object's Y to the new calculated Y
-            newX = newX - 8;
+            //set the object's X to the new calculated X
+            newX = newX - 8; // offset
             newX = (newX * strafe);
             transform.position = new Vector3(newX, pos.y, pos.z);
     }
