@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.4497314, g: 0.17817727, b: 0.49056602, a: 1}
+  m_FogColor: {r: 0.5566038, g: 0.44977406, b: 0.2284176, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.007
   m_LinearFogStart: 0
@@ -1330,7 +1330,6 @@ GameObject:
   - component: {fileID: 1423724276}
   - component: {fileID: 1423724275}
   - component: {fileID: 1423724274}
-  - component: {fileID: 1423724278}
   m_Layer: 0
   m_Name: Sun (1)
   m_TagString: Untagged
@@ -1414,19 +1413,6 @@ Transform:
   m_Father: {fileID: 904439059}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1423724278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423724273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f3d4192f977d7f4ca50647765f9d10b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotSpeed: 50
 --- !u!1001 &1543629215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1603,7 +1589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useMic: 0
-  clip: {fileID: 8300000, guid: e5e139b2d8a7a4b429830ecb89a2b21a, type: 3}
+  clip: {fileID: 8300000, guid: 2d8bf728a1f15ea48a18791af2e3ef6f, type: 3}
   amgMic: {fileID: 0}
   amgMaster: {fileID: 0}
   selectedDevice: 
