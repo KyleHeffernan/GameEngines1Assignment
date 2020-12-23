@@ -16,8 +16,8 @@ RenderSettings:
   serializedVersion: 9
   m_Fog: 1
   m_FogColor: {r: 0.4497314, g: 0.17817727, b: 0.49056602, a: 1}
-  m_FogMode: 1
-  m_FogDensity: 0.014
+  m_FogMode: 3
+  m_FogDensity: 0.008
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -482,6 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   terrainPrefab: {fileID: 4405378010575731366, guid: a968f810f16f27c42b1f0e7ae5ae7aa5, type: 3}
+  terrainPrefab2: {fileID: 4405378010575731366, guid: ccc671380822a7848b6f548e426c5017, type: 3}
   speed: 20
   player: {fileID: 1635182058}
   moveDistance: 10
