@@ -300,6 +300,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7524815975589964321, guid: 7bc9ba49f6b3e3942b5f4178e6a4de31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8303233153084973601, guid: 7bc9ba49f6b3e3942b5f4178e6a4de31, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -398,6 +402,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 154.513, y: -2.7139893, z: 378.986}
+--- !u!1 &760530473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6788857142182910002, guid: 7bc9ba49f6b3e3942b5f4178e6a4de31, type: 3}
+  m_PrefabInstance: {fileID: 585158733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &760530477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760530473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3447e2a2a888512468bf66a0bcfa19fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  height: 0.08
 --- !u!1 &828392721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,27 +1445,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1963063196 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3249119035973411650, guid: 7bc9ba49f6b3e3942b5f4178e6a4de31, type: 3}
-  m_PrefabInstance: {fileID: 585158733}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1963063197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3249119035973411649, guid: 7bc9ba49f6b3e3942b5f4178e6a4de31, type: 3}
   m_PrefabInstance: {fileID: 585158733}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1963063198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963063196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3447e2a2a888512468bf66a0bcfa19fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  height: 0.05
