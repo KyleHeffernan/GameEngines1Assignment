@@ -14,6 +14,11 @@ public class HueScript : MonoBehaviour
 
     }
 
+    //System.Collections.IEnumerator HueShift()
+    //{
+   //     yield return new WaitForSeconds(10);
+    //}
+
     // Update is called once per frame
     void Update()
     {
@@ -23,7 +28,7 @@ public class HueScript : MonoBehaviour
         {
             if(ColorGrading.hueShift.value == 180)
             {
-                ColorGrading.hueShift.value = 1;
+                ColorGrading.hueShift.value = -180;
             }
             else
             {
