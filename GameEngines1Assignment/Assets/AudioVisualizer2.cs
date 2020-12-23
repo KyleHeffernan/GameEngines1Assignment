@@ -40,6 +40,7 @@ public class AudioVisualizer2 : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        //Debug.Log(AudioAnalyzer.smoothedAmplitude);
         transform.Rotate(0, AudioAnalyzer.smoothedAmplitude * Time.deltaTime * rotSpeed, 0);
         for(int i = 0 ; i < elements.Count ; i ++)
         {

@@ -33,6 +33,10 @@ public class HueScript : MonoBehaviour
             else
             {
                 ColorGrading.hueShift.value += (float)colorShift;
+                if(AudioAnalyzer.smoothedAmplitude > .3)
+                {
+                    ColorGrading.hueShift.value += 1;
+                }
             }
 
         }
