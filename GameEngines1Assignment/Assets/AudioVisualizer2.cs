@@ -7,6 +7,8 @@ public class AudioVisualizer2 : MonoBehaviour {
     public float scale = 10;
 
     public float rotSpeed = 200;
+
+    public Material mat;
     List<GameObject> elements = new List<GameObject>();
 	// Use this for initialization
 	void Start () {
@@ -31,6 +33,7 @@ public class AudioVisualizer2 : MonoBehaviour {
             cube.GetComponent<Collider>().enabled = false;
             cube.transform.position = transform.TransformPoint(pos);
             cube.transform.parent = this.transform;
+            cube.GetComponent<Renderer>().material = mat;
             elements.Add(cube);
         }
     }
