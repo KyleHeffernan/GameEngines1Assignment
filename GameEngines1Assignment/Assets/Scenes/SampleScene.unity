@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.30811256, b: 0.4472444, a: 1}
+  m_IndirectSpecularColor: {r: 0.10960359, g: 0.042215675, b: 0.27719307, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useMic: 0
-  clip: {fileID: 8300000, guid: cc9b2307427a38741b7afa925f76ed15, type: 3}
+  clip: {fileID: 8300000, guid: 56a7b5c8cac4ce8468fd30507802fc09, type: 3}
   amgMic: {fileID: 0}
   amgMaster: {fileID: 0}
   selectedDevice: 
