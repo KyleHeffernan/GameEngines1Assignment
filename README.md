@@ -34,7 +34,8 @@ far enough, another one will spawn. Every 5th prefab spawns using an altered ver
 When the prefabs are spawned, they are set to be destroyed after 30 seconds as once they move behind the camera there is no need
 for them. The car has a simple driving script which makes it sway side to side to make it look more realistic. The body of the
 car also has a suspension script to make it bounce up and down on the wheels. The wheels have a rotating script to make it look
-like the car is actually driving.
+like the car is actually driving. I also have smoke and flash particle systems coming from the car exhaust, and a shower
+above the car to make it look like its raining.
 Further out in the scene, a sun object has a second audio visualizer attached to it. This audio visualizer makes a circle around
 the sun using a set radius and spawns 512 cubes along this circle, each cube representing an element in the audio analyzer framesize.
 Each frame, the scale of these cubes is lerped to the wave that they represent. The visualizer object itself is also being 
