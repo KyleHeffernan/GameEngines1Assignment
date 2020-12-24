@@ -35,6 +35,7 @@ public class AudioAnalyzer : MonoBehaviour
         wave = new float[frameSize];
         bands = new float[(int) Mathf.Log(frameSize, 2)];
         
+        // If UseMic is selected, analyze audio coming from the mic
         if (useMic)
         {
             if (Microphone.devices.Length > 0)
@@ -60,6 +61,7 @@ public class AudioAnalyzer : MonoBehaviour
         binWidth = AudioSettings.outputSampleRate / 2 / frameSize;
     }
 
+    // Separating the audio into 9 frequency bands
     void GetFrequencyBands()
     {        
         for (int i = 0; i < bands.Length; i++)
@@ -74,11 +76,11 @@ public class AudioAnalyzer : MonoBehaviour
             }
             average /= (float) width;
             bands[i] = average;
-            //Debug.Log(i + "\t" + start + "\t" + end + "\t" + start * binWidth + "\t" + (end * binWidth));
         }
 
     }
 
+    // Getting the smooth amplitude of the audio
     public void GetAmplitude()
     {
         float total = 0;
