@@ -55,19 +55,26 @@ minimum and continues to be increased. When the audio amptitude is above a thres
 
 
 # References
+Unity Documentation
+Game Engines Examples 2020 Github
+
+[Car](https://assetstore.unity.com/packages/3d/vehicles/land/shaded-free-retro-car-179873)
+[SkyBox](https://assetstore.unity.com/packages/2d/textures-materials/sky/urban-night-sky-134468)
+[PostProcessing](https://www.youtube.com/watch?v=jg2I2odw51M&ab_channel=ExpressedUnity)
 
 # What I am most proud of in the assignment
+I'm really proud of the general aesthetic of the project, I think it looks really cool.
 
 # Proposal submitted earlier can go here:
-For my assignment, I plan to make an audio visualiser which makes use of Unity's particle system. 
-The visualiser will have geysers of liquid reactive to sound.
+I initially planned to have the assignment focus on Unity's particle system. I still made use of some particle systems,
+but shifted the focus.
+"For my assignment, I plan to make an audio visualiser which makes use of Unity's particle system. 
+The visualiser will have geysers of liquid reactive to sound."
 
 
 
 
-This is a [hyperlink](http://bryanduggan.org)
+This is my youtube demo:
 
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube](https://youtu.be/y7GNvbx5ke8)
 
