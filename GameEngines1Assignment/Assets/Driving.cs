@@ -6,8 +6,10 @@ public class Driving : MonoBehaviour
 {
 
     public float speed = 1f;
-    //adjust this to change how far it goes   
+
+    // Adjust to change how far it strafes   
     public float strafe = 0.5f;
+    
     // Start is called before the first frame update
     void Start()
     {

@@ -16,11 +16,6 @@ public class HueScript : MonoBehaviour
 
     }
 
-    //System.Collections.IEnumerator HueShift()
-    //{
-    //     yield return new WaitForSeconds(10);
-    //}
-
     // Update is called once per frame
     void Update()
     {
@@ -40,7 +35,7 @@ public class HueScript : MonoBehaviour
                 //If amptitude gets very high, change hue much faster
                 if(AudioAnalyzer.smoothedAmplitude > .3)
                 {
-                    ColorGrading.hueShift.value += 1;
+                    ColorGrading.hueShift.value += .8f;
                 }
             }
 

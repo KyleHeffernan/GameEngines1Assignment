@@ -29,8 +29,6 @@ public class TerrainSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //audioSpeed = speed * AudioAnalyzer.smoothedAmplitude * 100;
         transform.position+= transform.forward * speed * Time.deltaTime;
         if(Vector3.Distance(player.transform.position, transform.position) < spawnDistance)
         {
@@ -41,8 +39,8 @@ public class TerrainSpawner : MonoBehaviour
 
     void Spawn()
     {
+        // Every fifth terrain generated has a streetlamp
         counter++;
-        //random = Random.Range(1,5);
         if(counter % 5 == 0)
         {
             terrainPrefabCopy = terrainPrefab;
@@ -51,6 +49,7 @@ public class TerrainSpawner : MonoBehaviour
         {
             terrainPrefabCopy = terrainPrefab2;
         }
+        // Instatiating new terrain and adding the movement script onto it, moving it towards the camera
         GameObject terrain = GameObject.Instantiate<GameObject>(terrainPrefabCopy, transform.position, transform.rotation);
         MoveTerrain moveScript = terrain.AddComponent<MoveTerrain>();
         moveScript.speed = speed;

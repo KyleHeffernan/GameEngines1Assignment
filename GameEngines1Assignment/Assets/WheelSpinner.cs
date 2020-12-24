@@ -15,6 +15,7 @@ public class WheelSpinner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Rotating the wheels to look like the car is driving
         transform.Rotate(Time.deltaTime * rotSpeed, 0, 0);
         
         
