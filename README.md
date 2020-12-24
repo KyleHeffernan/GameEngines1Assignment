@@ -55,12 +55,11 @@ minimum and continues to be increased. When the audio amptitude is above a thres
 
 
 # References
-Unity Documentation
-Game Engines Examples 2020 Github
-
-[Car](https://assetstore.unity.com/packages/3d/vehicles/land/shaded-free-retro-car-179873)
-[SkyBox](https://assetstore.unity.com/packages/2d/textures-materials/sky/urban-night-sky-134468)
-[PostProcessing](https://www.youtube.com/watch?v=jg2I2odw51M&ab_channel=ExpressedUnity)
+- Unity Documentation
+- Game Engines Examples 2020 Github
+- [Car](https://assetstore.unity.com/packages/3d/vehicles/land/shaded-free-retro-car-179873)
+- [SkyBox](https://assetstore.unity.com/packages/2d/textures-materials/sky/urban-night-sky-134468)
+- [PostProcessing](https://www.youtube.com/watch?v=jg2I2odw51M&ab_channel=ExpressedUnity)
 
 # What I am most proud of in the assignment
 I'm really proud of the general aesthetic of the project, I think it looks really cool.
