@@ -72,8 +72,5 @@ The visualiser will have geysers of liquid reactive to sound."
 
 
 
-
-This is my youtube demo:
-
-[![YouTube](https://youtu.be/y7GNvbx5ke8)
+[This is my youtube demo](https://youtu.be/y7GNvbx5ke8)
 
