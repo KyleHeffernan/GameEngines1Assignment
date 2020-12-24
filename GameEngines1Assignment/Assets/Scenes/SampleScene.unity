@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950e4c373d196434fbf1a75399237ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: 65
+  scale: 50
   rotSpeed: 150
   mat: {fileID: 2100000, guid: d9c5f62692125ae4599b39d6fdc1738a, type: 2}
   radius: 70
