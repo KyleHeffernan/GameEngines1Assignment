@@ -8,7 +8,7 @@ DT211C/4
 
 # Project Description
 This project simulates driving through a city at night. The buildings are audio reactive, as well as the ring around the sun in the distance.
-The city itself is procedurally generated using 
+The city itself is procedurally generated using prefabs. There is also some PostProcessing for nice visuals.
 
 # Instructions for use
 Run the exe file.
